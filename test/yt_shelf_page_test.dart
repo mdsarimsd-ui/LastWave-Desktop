@@ -3,13 +3,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/innertube/yt_library_providers.dart';
-import 'package:lastwave_desktop/features/search/shared_providers.dart';
-import 'package:lastwave_desktop/ui/collections/yt_shelf_page.dart';
-import 'package:lastwave_desktop/ui/components/ambient.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/innertube/yt_library_providers.dart';
+import 'package:nexora_desktop/features/search/shared_providers.dart';
+import 'package:nexora_desktop/ui/collections/yt_shelf_page.dart';
+import 'package:nexora_desktop/ui/components/ambient.dart';
 
 /// A shelf longer than any home rail: the page is the only surface that is
 /// supposed to show all of it.

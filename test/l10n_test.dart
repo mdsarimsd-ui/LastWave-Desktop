@@ -1,9 +1,9 @@
 import 'dart:ui';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:lastwave_desktop/core/l10n/app_language.dart';
-import 'package:lastwave_desktop/core/l10n/app_localizations.dart';
-import 'package:lastwave_desktop/core/l10n/translations.dart';
+import 'package:nexora_desktop/core/l10n/app_language.dart';
+import 'package:nexora_desktop/core/l10n/app_localizations.dart';
+import 'package:nexora_desktop/core/l10n/translations.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

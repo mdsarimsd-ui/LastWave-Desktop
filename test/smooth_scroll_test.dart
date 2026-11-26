@@ -1,7 +1,7 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/design_system/fluent/lw_scrollbar.dart';
+import 'package:nexora_desktop/design_system/fluent/lw_scrollbar.dart';
 
 void main() {
   testWidgets('wheel notches glide as one smooth, monotonic motion',

@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/theme/haze.dart';
+import 'package:nexora_desktop/ui/theme/haze.dart';
 
 /// The material matrix: a surface may *request* a filter (`enableBlur`), but
 /// Solid mode and L1-at-low always win. The rail asks for a filter while it is

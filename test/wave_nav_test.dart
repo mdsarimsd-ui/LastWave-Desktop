@@ -1,10 +1,10 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
-import 'package:lastwave_desktop/ui/app_shell/branch_switcher.dart';
-import 'package:lastwave_desktop/ui/navigation/route_origin.dart';
-import 'package:lastwave_desktop/ui/navigation/wave_nav.dart';
-import 'package:lastwave_desktop/ui/theme/tokens.dart';
+import 'package:nexora_desktop/ui/app_shell/branch_switcher.dart';
+import 'package:nexora_desktop/ui/navigation/route_origin.dart';
+import 'package:nexora_desktop/ui/navigation/wave_nav.dart';
+import 'package:nexora_desktop/ui/theme/tokens.dart';
 
 /// Why [waveOpen] exists.
 ///

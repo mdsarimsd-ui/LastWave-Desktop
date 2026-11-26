@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_models.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_repository.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_snapshot.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_models.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_repository.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_snapshot.dart';
 
 LyricsResult _word(String source) => LyricsResult(
       lines: const [

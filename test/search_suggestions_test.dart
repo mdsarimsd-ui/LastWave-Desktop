@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/search/search_repository.dart';
-import 'package:lastwave_desktop/ui/navigation/destinations.dart';
+import 'package:nexora_desktop/features/search/search_repository.dart';
+import 'package:nexora_desktop/ui/navigation/destinations.dart';
 
 void main() {
   group('suggestionNameMatchesQuery', () {

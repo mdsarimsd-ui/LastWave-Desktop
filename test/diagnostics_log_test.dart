@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/diagnostics/diagnostics_log.dart';
-import 'package:lastwave_desktop/core/diagnostics/log_bundle.dart';
+import 'package:nexora_desktop/core/diagnostics/diagnostics_log.dart';
+import 'package:nexora_desktop/core/diagnostics/log_bundle.dart';
 
 /// The diagnostics trail is the only thing a user can hand us from a
 /// release build, so its two promises are pinned here: it keeps a bounded

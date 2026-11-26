@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/theme/tokens.dart';
+import 'package:nexora_desktop/ui/theme/tokens.dart';
 
 /// Neutral-ladder invariants for the graphite / pearl palettes.
 ///

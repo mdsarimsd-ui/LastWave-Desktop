@@ -3,19 +3,19 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:lastwave_desktop/core/network/network_monitor.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/feed/feed_repository.dart';
-import 'package:lastwave_desktop/features/home/home_providers.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/innertube/yt_library_providers.dart';
-import 'package:lastwave_desktop/features/player/playback_service.dart';
-import 'package:lastwave_desktop/features/player/player_state.dart';
-import 'package:lastwave_desktop/features/podcasts/podcast_repository.dart';
-import 'package:lastwave_desktop/features/search/shared_providers.dart';
-import 'package:lastwave_desktop/ui/components/ambient.dart';
-import 'package:lastwave_desktop/ui/home/home_page.dart';
+import 'package:nexora_desktop/core/network/network_monitor.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/feed/feed_repository.dart';
+import 'package:nexora_desktop/features/home/home_providers.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/innertube/yt_library_providers.dart';
+import 'package:nexora_desktop/features/player/playback_service.dart';
+import 'package:nexora_desktop/features/player/player_state.dart';
+import 'package:nexora_desktop/features/podcasts/podcast_repository.dart';
+import 'package:nexora_desktop/features/search/shared_providers.dart';
+import 'package:nexora_desktop/ui/components/ambient.dart';
+import 'package:nexora_desktop/ui/home/home_page.dart';
 
 const _art = 'https://is1-ssl.mzstatic.com/image/thumb/x.jpg';
 

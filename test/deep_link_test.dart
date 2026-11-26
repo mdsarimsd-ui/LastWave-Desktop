@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/app/deep_link.dart';
+import 'package:nexora_desktop/app/deep_link.dart';
 
 void main() {
   test('reads the room code from a jam link', () {

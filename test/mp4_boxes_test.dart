@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/addons/mp4_boxes.dart';
+import 'package:nexora_desktop/features/addons/mp4_boxes.dart';
 
 /// ISO-BMFF test fixtures built by hand: these are the exact shapes the
 /// addon CDNs emit (v0 `tkhd`/`mdhd`, fragmented `moof`/`traf`/`tfdt`).

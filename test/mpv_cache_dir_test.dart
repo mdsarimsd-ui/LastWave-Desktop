@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/player/mpv_paths.dart';
+import 'package:nexora_desktop/features/player/mpv_paths.dart';
 
 void main() {
   test('mpv cache dir lives under the app temp dir', () {

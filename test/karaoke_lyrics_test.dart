@@ -1,11 +1,11 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/lyrics/desktop_lyrics_painter.dart';
-import 'package:lastwave_desktop/features/lyrics/karaoke_lyrics_view.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_models.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_repository.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/lyrics/desktop_lyrics_painter.dart';
+import 'package:nexora_desktop/features/lyrics/karaoke_lyrics_view.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_models.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

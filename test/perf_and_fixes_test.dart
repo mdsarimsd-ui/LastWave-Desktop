@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_models.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_models.dart';
 
 /// Reference implementation for [activeLyricLineIndex]: a plain linear
 /// scan with the same documented contract (-1 before the first cue or for

@@ -2,11 +2,11 @@ import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/performance/performance_controller.dart';
-import 'package:lastwave_desktop/features/settings/ui_scale.dart';
-import 'package:lastwave_desktop/ui/app_shell/wave_hotkeys.dart';
-import 'package:lastwave_desktop/ui/components/buttons.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/performance/performance_controller.dart';
+import 'package:nexora_desktop/features/settings/ui_scale.dart';
+import 'package:nexora_desktop/ui/app_shell/wave_hotkeys.dart';
+import 'package:nexora_desktop/ui/components/buttons.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

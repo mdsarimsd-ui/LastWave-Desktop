@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/downloads/folder_layout.dart';
+import 'package:nexora_desktop/features/downloads/folder_layout.dart';
 
 void main() {
   String sub(

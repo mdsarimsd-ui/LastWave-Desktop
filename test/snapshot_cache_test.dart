@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:lastwave_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
 
 void main() {
   late AppDatabase db;

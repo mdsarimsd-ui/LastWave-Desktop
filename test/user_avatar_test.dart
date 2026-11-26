@@ -1,12 +1,12 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/innertube/yt_library_providers.dart';
-import 'package:lastwave_desktop/features/lastfm/auth_repository.dart';
-import 'package:lastwave_desktop/features/lastfm/home_repository.dart';
-import 'package:lastwave_desktop/features/lastfm/profile_providers.dart';
-import 'package:lastwave_desktop/ui/components/artwork.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/innertube/yt_library_providers.dart';
+import 'package:nexora_desktop/features/lastfm/auth_repository.dart';
+import 'package:nexora_desktop/features/lastfm/home_repository.dart';
+import 'package:nexora_desktop/features/lastfm/profile_providers.dart';
+import 'package:nexora_desktop/ui/components/artwork.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

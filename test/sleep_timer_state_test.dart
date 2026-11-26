@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/player/player_state.dart';
+import 'package:nexora_desktop/features/player/player_state.dart';
 
 void main() {
   test('the picked length survives the countdown', () {

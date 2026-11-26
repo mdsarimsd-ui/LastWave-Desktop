@@ -1,7 +1,7 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/components/buttons.dart';
+import 'package:nexora_desktop/ui/components/buttons.dart';
 
 Widget _host({VoidCallback? onTap, double pressedScale = 0.97}) {
   return FluentApp(

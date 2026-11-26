@@ -4,7 +4,7 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/automix/automix_analyzer.dart';
+import 'package:nexora_desktop/features/automix/automix_analyzer.dart';
 
 void main() {
   final hasMpv = File('/usr/lib/x86_64-linux-gnu/libmpv.so.2').existsSync();

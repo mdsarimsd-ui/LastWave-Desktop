@@ -29,10 +29,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:integration_test/integration_test.dart';
 
-import 'package:lastwave_desktop/core/audio/stream_models.dart';
-import 'package:lastwave_desktop/features/player/playback_service.dart';
-import 'package:lastwave_desktop/main.dart' as app;
-import 'package:lastwave_desktop/ui/app_shell/app_shell.dart';
+import 'package:nexora_desktop/core/audio/stream_models.dart';
+import 'package:nexora_desktop/features/player/playback_service.dart';
+import 'package:nexora_desktop/main.dart' as app;
+import 'package:nexora_desktop/ui/app_shell/app_shell.dart';
 
 const _videoId = String.fromEnvironment('PERF_VIDEO_ID');
 // Lyrics are looked up by title + artist, so both must name the real song.

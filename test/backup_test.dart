@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/backup/backup_repository.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/backup/backup_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

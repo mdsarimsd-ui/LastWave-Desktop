@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/addons/hybrid_cenc.dart';
+import 'package:nexora_desktop/features/addons/hybrid_cenc.dart';
 import 'package:pointycastle/export.dart';
 
 Uint8List concat(List<Uint8List> parts) {

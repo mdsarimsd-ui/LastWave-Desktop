@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/audio/stream_models.dart';
-import 'package:lastwave_desktop/ui/components/menus.dart';
+import 'package:nexora_desktop/core/audio/stream_models.dart';
+import 'package:nexora_desktop/ui/components/menus.dart';
 
 void main() {
   group('trackShareLink', () {

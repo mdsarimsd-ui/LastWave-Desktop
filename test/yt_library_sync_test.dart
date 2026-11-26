@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/library/playlists.dart';
-import 'package:lastwave_desktop/features/library/yt_library_sync.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/library/playlists.dart';
+import 'package:nexora_desktop/features/library/yt_library_sync.dart';
 
 StoredTrack _t(String id, [String? name]) =>
     StoredTrack(name: name ?? 'Song $id', artist: 'A', videoId: id);

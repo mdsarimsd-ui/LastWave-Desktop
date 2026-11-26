@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/error/fatal_crumbs.dart';
+import 'package:nexora_desktop/core/error/fatal_crumbs.dart';
 
 void main() {
   test('runGuarded returns body value when clean', () {

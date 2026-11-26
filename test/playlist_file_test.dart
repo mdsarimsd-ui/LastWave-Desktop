@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/library/playlist_file.dart';
-import 'package:lastwave_desktop/features/library/playlist_import.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/library/playlist_file.dart';
+import 'package:nexora_desktop/features/library/playlist_import.dart';
 
 class _Source implements PlaylistTrackSource {
   final Map<String, YouTubeMusicTrack> matches;

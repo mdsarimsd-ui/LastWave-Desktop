@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/network/lastfm_api.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/search/search_repository.dart';
+import 'package:nexora_desktop/core/network/lastfm_api.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/search/search_repository.dart';
 
 class _FakeTube extends Fake implements InnerTubeMusicApi {
   int calls = 0;

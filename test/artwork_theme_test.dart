@@ -1,8 +1,8 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/settings/accent.dart';
-import 'package:lastwave_desktop/ui/components/ambient.dart';
-import 'package:lastwave_desktop/ui/theme/tokens.dart';
+import 'package:nexora_desktop/features/settings/accent.dart';
+import 'package:nexora_desktop/ui/components/ambient.dart';
+import 'package:nexora_desktop/ui/theme/tokens.dart';
 
 ArtworkPalette _palette(Color primary) => ArtworkPalette(
       primary: primary,

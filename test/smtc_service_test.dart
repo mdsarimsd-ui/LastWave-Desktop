@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/audio/stream_models.dart';
-import 'package:lastwave_desktop/features/player/player_state.dart';
-import 'package:lastwave_desktop/features/smtc/smtc_service.dart';
+import 'package:nexora_desktop/core/audio/stream_models.dart';
+import 'package:nexora_desktop/features/player/player_state.dart';
+import 'package:nexora_desktop/features/smtc/smtc_service.dart';
 
 const _track = PlayableTrack(
   title: 'Song',

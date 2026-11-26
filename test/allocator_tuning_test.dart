@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/platform/allocator_tuning.dart';
+import 'package:nexora_desktop/core/platform/allocator_tuning.dart';
 
 void main() {
   // The tuning is a best-effort FFI call, so the only thing worth locking

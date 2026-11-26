@@ -7,8 +7,8 @@ import 'dart:io';
 
 import 'package:flutter_lyric/flutter_lyric.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/lyrics/flutter_lyric_adapter.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_models.dart';
+import 'package:nexora_desktop/features/lyrics/flutter_lyric_adapter.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_models.dart';
 
 void main() {
   test('KR\$NA crash payload survives the full karaoke pipeline', () {

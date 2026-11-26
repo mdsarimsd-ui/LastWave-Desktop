@@ -3,19 +3,19 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:lastwave_desktop/core/artwork/animated_artwork_service.dart';
-import 'package:lastwave_desktop/core/audio/stream_models.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_models.dart';
-import 'package:lastwave_desktop/features/player/playback_service.dart';
-import 'package:lastwave_desktop/features/player/player_state.dart';
-import 'package:lastwave_desktop/features/search/shared_providers.dart';
-import 'package:lastwave_desktop/ui/components/ambient.dart';
-import 'package:lastwave_desktop/ui/lyrics/lyrics_panel.dart';
-import 'package:lastwave_desktop/ui/now_playing/immersive.dart';
-import 'package:lastwave_desktop/ui/now_playing/now_playing_page.dart';
-import 'package:lastwave_desktop/ui/theme/haze.dart';
+import 'package:nexora_desktop/core/artwork/animated_artwork_service.dart';
+import 'package:nexora_desktop/core/audio/stream_models.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_models.dart';
+import 'package:nexora_desktop/features/player/playback_service.dart';
+import 'package:nexora_desktop/features/player/player_state.dart';
+import 'package:nexora_desktop/features/search/shared_providers.dart';
+import 'package:nexora_desktop/ui/components/ambient.dart';
+import 'package:nexora_desktop/ui/lyrics/lyrics_panel.dart';
+import 'package:nexora_desktop/ui/now_playing/immersive.dart';
+import 'package:nexora_desktop/ui/now_playing/now_playing_page.dart';
+import 'package:nexora_desktop/ui/theme/haze.dart';
 
 class _FakePlaybackService extends StateNotifier<PlayerSnapshot>
     implements PlaybackService {

@@ -3,10 +3,10 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:lastwave_desktop/features/scrobblers/extra_scrobblers.dart';
-import 'package:lastwave_desktop/ui/settings/settings_page.dart';
+import 'package:nexora_desktop/features/scrobblers/extra_scrobblers.dart';
+import 'package:nexora_desktop/ui/settings/settings_page.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

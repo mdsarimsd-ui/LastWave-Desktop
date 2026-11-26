@@ -2,10 +2,10 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/automix/audio_analysis.dart';
-import 'package:lastwave_desktop/features/automix/automix_analyzer.dart';
-import 'package:lastwave_desktop/features/automix/dj_mix_planner.dart';
-import 'package:lastwave_desktop/features/automix/mix_guard.dart';
+import 'package:nexora_desktop/features/automix/audio_analysis.dart';
+import 'package:nexora_desktop/features/automix/automix_analyzer.dart';
+import 'package:nexora_desktop/features/automix/dj_mix_planner.dart';
+import 'package:nexora_desktop/features/automix/mix_guard.dart';
 
 DeckReading deck({double volume = 70, bool playing = true, double rate = 1}) =>
     DeckReading(volume: volume, playing: playing, rate: rate);

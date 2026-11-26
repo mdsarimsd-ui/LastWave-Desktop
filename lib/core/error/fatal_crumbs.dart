@@ -19,7 +19,7 @@ String fatalCrumb(Object error, [StackTrace? stack]) {
         .toString()
         .split('\n')
         .map((l) => l.trim())
-        .firstWhere((l) => l.contains('package:lastwave'),
+        .firstWhere((l) => l.contains('package:nexora_desktop'),
             orElse: () => '');
     if (frame.isNotEmpty) out += ' @ $frame';
   }

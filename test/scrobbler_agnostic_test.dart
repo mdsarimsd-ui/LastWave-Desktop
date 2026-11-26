@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/network/lastfm_api.dart';
-import 'package:lastwave_desktop/core/network/rate_guard.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/lastfm/home_repository.dart';
-import 'package:lastwave_desktop/features/scrobblers/extra_scrobblers.dart';
-import 'package:lastwave_desktop/features/scrobblers/scrobbler_session.dart';
+import 'package:nexora_desktop/core/network/lastfm_api.dart';
+import 'package:nexora_desktop/core/network/rate_guard.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/lastfm/home_repository.dart';
+import 'package:nexora_desktop/features/scrobblers/extra_scrobblers.dart';
+import 'package:nexora_desktop/features/scrobblers/scrobbler_session.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class _StubAdapter implements HttpClientAdapter {

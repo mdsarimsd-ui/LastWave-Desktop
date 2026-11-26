@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/lastfm/home_repository.dart';
-import 'package:lastwave_desktop/features/lastfm/lastfm_snapshot.dart';
+import 'package:nexora_desktop/features/lastfm/home_repository.dart';
+import 'package:nexora_desktop/features/lastfm/lastfm_snapshot.dart';
 
 void main() {
   test('keys are scoped to the account and the viewed profile', () {

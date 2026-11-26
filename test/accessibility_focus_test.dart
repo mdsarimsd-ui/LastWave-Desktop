@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/app/accessibility.dart';
+import 'package:nexora_desktop/app/accessibility.dart';
 
 Widget _page(FocusNode a, FocusNode b) => FluentApp(
       home: Column(

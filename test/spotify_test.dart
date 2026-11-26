@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/spotify/spotify_api.dart';
-import 'package:lastwave_desktop/features/spotify/spotify_auth.dart';
-import 'package:lastwave_desktop/features/spotify/spotify_web_login.dart';
-import 'package:lastwave_desktop/features/spotify/spotify_web_player.dart';
-import 'package:lastwave_desktop/ui/canvas/canvas_geometry.dart';
+import 'package:nexora_desktop/features/spotify/spotify_api.dart';
+import 'package:nexora_desktop/features/spotify/spotify_auth.dart';
+import 'package:nexora_desktop/features/spotify/spotify_web_login.dart';
+import 'package:nexora_desktop/features/spotify/spotify_web_player.dart';
+import 'package:nexora_desktop/ui/canvas/canvas_geometry.dart';
 
 void main() {
   group('one-time password', () {

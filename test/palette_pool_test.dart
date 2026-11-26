@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/components/ambient.dart';
+import 'package:nexora_desktop/ui/components/ambient.dart';
 
 /// Raw straight RGBA, 4 bytes per pixel — the shape
 /// `ui.Image.toByteData()` produces and `PaletteGenerator.fromByteData`

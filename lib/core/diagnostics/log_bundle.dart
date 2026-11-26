@@ -25,7 +25,7 @@ import 'trace_crumb.dart';
 class LogBundle {
   const LogBundle._();
 
-  /// `LastWave-logs-20261023-171500.zip`.
+  /// `Nexora-logs-20261023-171500.zip`.
   static String suggestedName([DateTime? now]) {
     final t = now ?? DateTime.now();
     String two(int v) => v.toString().padLeft(2, '0');
@@ -145,7 +145,7 @@ class LogBundle {
   }
 
   static const String _readme = '''
-LastWave Desktop diagnostics bundle
+Nexora Desktop diagnostics bundle
 ===================================
 
 diagnostics.txt            App/build/platform summary, audio output path,

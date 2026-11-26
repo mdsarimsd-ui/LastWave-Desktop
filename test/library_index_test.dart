@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/downloads/download_manager.dart';
-import 'package:lastwave_desktop/features/library/library_index.dart';
-import 'package:lastwave_desktop/features/library/playlists.dart';
+import 'package:nexora_desktop/features/downloads/download_manager.dart';
+import 'package:nexora_desktop/features/library/library_index.dart';
+import 'package:nexora_desktop/features/library/playlists.dart';
 
 void main() {
   const a1 = StoredTrack(

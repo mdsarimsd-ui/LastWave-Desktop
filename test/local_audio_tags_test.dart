@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/library/local_audio_tags.dart';
+import 'package:nexora_desktop/features/library/local_audio_tags.dart';
 
 Uint8List _u32(int v) =>
     Uint8List.fromList([v >> 24 & 255, v >> 16 & 255, v >> 8 & 255, v & 255]);

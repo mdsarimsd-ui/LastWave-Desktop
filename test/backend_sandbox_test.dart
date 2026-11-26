@@ -2,11 +2,11 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:lastwave_desktop/core/storage/secure_store.dart';
-import 'package:lastwave_desktop/features/innertube/ephemeral_webview_broker.dart';
-import 'package:lastwave_desktop/features/innertube/quickjs_cipher.dart';
-import 'package:lastwave_desktop/features/innertube/signature_decipher.dart';
-import 'package:lastwave_desktop/features/innertube/yt_auth_store.dart';
+import 'package:nexora_desktop/core/storage/secure_store.dart';
+import 'package:nexora_desktop/features/innertube/ephemeral_webview_broker.dart';
+import 'package:nexora_desktop/features/innertube/quickjs_cipher.dart';
+import 'package:nexora_desktop/features/innertube/signature_decipher.dart';
+import 'package:nexora_desktop/features/innertube/yt_auth_store.dart';
 
 void main() {
   group('Phase 1: YtAuthStore & YtSessionBundle Sandbox Tests', () {

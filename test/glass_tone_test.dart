@@ -2,9 +2,9 @@ import 'dart:math' as math;
 
 import 'package:flutter/painting.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/components/ambient.dart';
-import 'package:lastwave_desktop/ui/components/glass_stage.dart';
-import 'package:lastwave_desktop/ui/theme/tokens.dart';
+import 'package:nexora_desktop/ui/components/ambient.dart';
+import 'package:nexora_desktop/ui/components/glass_stage.dart';
+import 'package:nexora_desktop/ui/theme/tokens.dart';
 
 double _contrast(Color a, Color b) {
   final la = a.computeLuminance(), lb = b.computeLuminance();

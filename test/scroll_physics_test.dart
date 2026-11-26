@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/design_system/fluent/lw_scrollbar.dart';
+import 'package:nexora_desktop/design_system/fluent/lw_scrollbar.dart';
 
 void main() {
   test('WaveScrollBehavior includes mouse and trackpad in dragDevices', () {

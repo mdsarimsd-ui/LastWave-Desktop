@@ -3,9 +3,9 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/features/library/playlists.dart';
-import 'package:lastwave_desktop/ui/components/menus.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/features/library/playlists.dart';
+import 'package:nexora_desktop/ui/components/menus.dart';
 
 Future<void> _pumpPanel(WidgetTester tester, List<WaveMenuEntry> entries) async {
   await tester.binding.setSurfaceSize(const Size(1000, 700));

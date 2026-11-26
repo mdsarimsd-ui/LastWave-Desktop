@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
-import 'package:lastwave_desktop/features/feed/feed_repository.dart';
-import 'package:lastwave_desktop/features/feed/home_blend.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/features/feed/feed_repository.dart';
+import 'package:nexora_desktop/features/feed/home_blend.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
 
 YouTubeMusicTrack _yt(String id, String artist, {String art = 'http://a'}) =>
     YouTubeMusicTrack(

@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/app_shell/branch_switcher.dart';
+import 'package:nexora_desktop/ui/app_shell/branch_switcher.dart';
 
 /// Branch child that survives a switch only if its element is kept alive —
 /// the whole point of the container.

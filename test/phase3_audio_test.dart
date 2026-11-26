@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/audio/stream_models.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/audio_output/format_negotiator.dart';
-import 'package:lastwave_desktop/features/audio_output/output_path_status.dart';
-import 'package:lastwave_desktop/features/audio_output/pcm_format.dart';
-import 'package:lastwave_desktop/features/equalizer/headphone_profiles.dart';
-import 'package:lastwave_desktop/features/player/audio_graph.dart';
-import 'package:lastwave_desktop/features/player/loudness.dart';
+import 'package:nexora_desktop/core/audio/stream_models.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/audio_output/format_negotiator.dart';
+import 'package:nexora_desktop/features/audio_output/output_path_status.dart';
+import 'package:nexora_desktop/features/audio_output/pcm_format.dart';
+import 'package:nexora_desktop/features/equalizer/headphone_profiles.dart';
+import 'package:nexora_desktop/features/player/audio_graph.dart';
+import 'package:nexora_desktop/features/player/loudness.dart';
 
 void main() {
   test('data saver is a persisted quality with a short label', () {

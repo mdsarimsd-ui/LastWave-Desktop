@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/platform/renderer_mode.dart';
-import 'package:lastwave_desktop/core/platform/windows_memory.dart';
-import 'package:lastwave_desktop/core/storage/app_database.dart';
+import 'package:nexora_desktop/core/platform/renderer_mode.dart';
+import 'package:nexora_desktop/core/platform/windows_memory.dart';
+import 'package:nexora_desktop/core/storage/app_database.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

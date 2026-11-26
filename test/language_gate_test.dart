@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/matching/match_vocab.dart';
-import 'package:lastwave_desktop/features/addons/addon_api.dart';
+import 'package:nexora_desktop/core/matching/match_vocab.dart';
+import 'package:nexora_desktop/features/addons/addon_api.dart';
 
 void main() {
   test('languages are read from words and scripts', () {

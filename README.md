@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="LastWave_Desktop_v7_1440p.png" alt="LastWave Desktop Banner" width="100%" style="border-radius: 16px;" />
+<img src="LastWave_Desktop_v7_1440p.png" alt="Nexora Desktop Banner" width="100%" style="border-radius: 16px;" />
 
-<h1>LastWave</h1>
+<h1>Nexora</h1>
 
-**Simple Desktop YouTube Music client with WinUI, Bit-Perfect playback, Automix, Lossless addons & advanced audiophile features.**
+**Nexora for Desktop: YouTube Music client with WinUI-style UI, Bit-Perfect playback, Automix, Lossless addons & advanced audiophile features.**
+
+Nexora is a GPL-3.0 fork of [LastWave Desktop](https://github.com/Clash-Projects/LastWave-Desktop) by Clash-Projects.
 
 <br/>
 

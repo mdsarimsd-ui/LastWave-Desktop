@@ -4,9 +4,9 @@ import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/network/dio_factory.dart';
-import 'package:lastwave_desktop/core/storage/secure_store.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/core/network/dio_factory.dart';
+import 'package:nexora_desktop/core/storage/secure_store.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
 
 /// Regression coverage for issue #79: YouTube now answers the ANDROID
 /// player client with SABR-only adaptive audio (no direct URL). The only

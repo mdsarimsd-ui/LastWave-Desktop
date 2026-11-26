@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/player/mix_planner.dart';
+import 'package:nexora_desktop/features/player/mix_planner.dart';
 
 MixTrackInfo t(String title,
         {String artist = 'A', String album = '', int seconds = 200}) =>

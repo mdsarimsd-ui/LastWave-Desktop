@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/settings/diagnostics_actions.dart';
+import 'package:nexora_desktop/ui/settings/diagnostics_actions.dart';
 
 void main() {
   test('Windows 11 builds are labelled Windows 11', () {

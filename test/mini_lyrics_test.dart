@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/features/lyrics/lyrics_models.dart';
-import 'package:lastwave_desktop/ui/mini_player/mini_player.dart';
+import 'package:nexora_desktop/features/lyrics/lyrics_models.dart';
+import 'package:nexora_desktop/ui/mini_player/mini_player.dart';
 
 void main() {
   const lines = [

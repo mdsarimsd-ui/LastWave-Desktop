@@ -13,13 +13,13 @@ import 'dart:math' as math;
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/audio/stream_models.dart';
-import 'package:lastwave_desktop/core/storage/prefs.dart';
-import 'package:lastwave_desktop/features/downloads/download_manager.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
-import 'package:lastwave_desktop/features/lastfm/scrobble_repository.dart';
-import 'package:lastwave_desktop/features/lossless/lossless_source.dart';
-import 'package:lastwave_desktop/features/player/playback_service.dart';
+import 'package:nexora_desktop/core/audio/stream_models.dart';
+import 'package:nexora_desktop/core/storage/prefs.dart';
+import 'package:nexora_desktop/features/downloads/download_manager.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/features/lastfm/scrobble_repository.dart';
+import 'package:nexora_desktop/features/lossless/lossless_source.dart';
+import 'package:nexora_desktop/features/player/playback_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class _Tube extends Fake implements InnerTubeMusicApi {

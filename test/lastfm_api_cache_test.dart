@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/core/network/lastfm_api.dart';
-import 'package:lastwave_desktop/core/network/rate_guard.dart';
+import 'package:nexora_desktop/core/network/lastfm_api.dart';
+import 'package:nexora_desktop/core/network/rate_guard.dart';
 
 class _Adapter implements HttpClientAdapter {
   int calls = 0;

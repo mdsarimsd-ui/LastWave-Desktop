@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/settings/settings_search.dart';
+import 'package:nexora_desktop/ui/settings/settings_search.dart';
 
 List<String> titles(String query) => [
       for (final hit in filterSettings(settingsSearchEntries, query)) hit.title,

@@ -494,7 +494,7 @@ class AnimatedArtworkSession extends ChangeNotifier {
     final player = Player(
       configuration: const PlayerConfiguration(
         muted: true,
-        title: 'LastWave Artwork',
+        title: 'Nexora Artwork',
         // 4 MiB easily holds multiple loops of Apple fMP4, Tidal 1280x1280 MP4,
         // or Community Canvas loops (~500KB-2MB) while avoiding 16-32 MiB RSS bloat.
         bufferSize: 4 * 1024 * 1024,

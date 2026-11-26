@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:media_kit/media_kit.dart';
-import 'package:lastwave_desktop/core/network/dio_factory.dart';
-import 'package:lastwave_desktop/core/storage/secure_store.dart';
-import 'package:lastwave_desktop/features/innertube/innertube_api.dart';
+import 'package:nexora_desktop/core/network/dio_factory.dart';
+import 'package:nexora_desktop/core/storage/secure_store.dart';
+import 'package:nexora_desktop/features/innertube/innertube_api.dart';
 
 void main() {
   test('Qaafirana resolves and advances in the packaged MPV backend', () async {

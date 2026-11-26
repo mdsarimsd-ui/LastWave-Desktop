@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lastwave_desktop/ui/navigation/route_origin.dart';
+import 'package:nexora_desktop/ui/navigation/route_origin.dart';
 
 void main() {
   test('carries the point the route was opened from', () {
